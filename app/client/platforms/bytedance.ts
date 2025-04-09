@@ -46,7 +46,7 @@ interface RequestPayloadForByteDance {
   presence_penalty: number;
   frequency_penalty: number;
   top_p: number;
-  max_tokens: number;
+  max_tokens?: number;
 }
 
 export class DoubaoApi implements LLMApi {
