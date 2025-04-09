@@ -111,6 +111,7 @@ export class DoubaoApi implements LLMApi {
       presence_penalty: modelConfig.presence_penalty,
       frequency_penalty: modelConfig.frequency_penalty,
       top_p: modelConfig.top_p,
+      max_tokens: 16384,
     };
 
     const controller = new AbortController();
