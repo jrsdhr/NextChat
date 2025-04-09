@@ -304,7 +304,8 @@ export function getTimeoutMSByModel(model: string) {
     model.startsWith("o1") ||
     model.startsWith("o3") ||
     model.includes("deepseek-r") ||
-    model.includes("-thinking")
+    model.includes("-thinking") ||
+    model.includes("bot-20250404210342-7mnm7") 
   )
     return REQUEST_TIMEOUT_MS_FOR_THINKING;
   return REQUEST_TIMEOUT_MS;
