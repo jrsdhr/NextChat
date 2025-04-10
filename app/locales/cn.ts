@@ -711,11 +711,11 @@ const cn = {
     },
   },
   Mask: {
-    Name: "面具",
+    Name: "财务智能应用",
     Page: {
-      Title: "预设角色面具",
+      Title: "财务智能应用",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Search: "搜索智能应用",
       Create: "新建",
     },
     Item: {
